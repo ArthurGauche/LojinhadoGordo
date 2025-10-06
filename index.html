@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha do Gordo</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    
+    <header>
+        <div class="header-container">
+            <div class="logo"><span>Lojinha</span>do<span>Gordo</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#fidelidade">Fidelidade</a></li>
+                    <li class="cart-icon" id="cart-icon">
+                        Carrinho
+                        <span class="cart-count" id="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="hero">
+        <h1>Tenha tudo o que você precisa na palma da mão</h1>
+        <p>Venha comprar desde móveis até brinquedos, tudo em apenas um clique de distância!</p>
+        <a href="#products" class="btn">Ver Produtos</a>
+    </section>
+
+    <!-- Seção de produtos -->
+    <section class="products" id="products">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products-grid" id="products-grid">
+            <!-- Os produtos serão inseridos via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Carrinho lateral -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </div>
+        <div class="cart-total">
+            Total: R$ <span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+    <section id="sobre" class="products">
+        <h2 class="section-title">Sobre nós</h2>
+        <p>A Lojinha do Gordo é um espaço especial, cheio de objetos variados que chamam a atenção logo de cara. Muitas dessas coisas cabem na palma da mão, mas têm o poder de transformar o dia a dia de quem as encontra. Quem entra na loja não busca apenas um produto, mas algo que traga conforto e bem-estar de um jeito simples e sincero.     
+        Ali, cada item parece ter sua própria história, esperando para ser descoberto por alguém que realmente vai valorizar o que ele oferece. Não é raro que as pessoas saiam dali com um sorriso no rosto, porque encontraram algo inesperado, que faz sentido para elas naquele momento.           
+        O clima acolhedor da loja faz com que os clientes se sintam em casa, como se estivessem visitando um amigo que entende suas pequenas necessidades. A Lojinha do Gordo é mais do que uma loja de variedades.
+        é um lugar onde o cuidado com o detalhe e o carinho nas escolhas fazem toda a diferença.            
+        No fim, o que fica não é só o objeto comprado, mas a sensação de ter recebido algo que contribui para o bem-estar, mesmo que seja algo simples que caiba na palma da mão.</p>
+    </section>
+    <section id="contato" class="products">
+        <h2 class="section-title">Contato</h2>
+        <p>Endereço: BR-470, km 470 - nº 2555 - Navegantes, Rio do Sul - SC, 89162-528
+            Telefone: (47) 98412-6117
+            Horário de funcionamento: 
+           07:15 - 22:00
+            </p>
+    </section>
+    <section id="fidelidade" class="products">
+            <h2 class="section-title">Fidelidade</h2>
+            <p>Aqui, quem é fiel ganha muito mais! Ao se cadastrar no nosso programa de fidelidade, você recebe avisos exclusivos antes de qualquer promoção, assim, nunca perde aquela oferta imperdível.
+            Além disso, preparamos cupons especiais só para você usar quando quiser. E tem mais: a cada compra, você acumula pontos que valem descontos e brindes incríveis!                
+            É simples, rápido e cheio de vantagens. Na Lojinha do Gordo, a sua fidelidade é recompensada com carinho, economia e surpresas que fazem o dia ficar melhor.                
+            Não fica de fora! Cadastre-se agora e comece a aproveitar tudo isso no seu próximo pedido!</p>
+<!--Adicionei um botão para fazer a fedalidade-->
+<div class="container-btn">
+    <button class="btn-fidelidade">Quero fazer parte!</button>
+  </div>
+
+    </section>
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MinimalStore. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+<script src="js/scripts.js"></script> 
+
+</body>
+</html>
