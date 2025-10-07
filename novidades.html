@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha do Gordo</title>
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    
+    <header>
+        <div class="header-container">
+            <div class="logo"><span>Lojinha</span>do<span>Gordo</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#products">Produtos</a></li>
+                    <li><a href="#products">Novidades</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#contato">Contato</a></li>
+                    <li><a href="index.html#fidelidade">Fidelidade</a></li>
+                    <li class="cart-icon" id="cart-icon">
+                        Carrinho
+                        <span class="cart-count" id="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrinho lateral -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </div>
+        <div class="cart-total">
+            Total: R$ <span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+    <section id="sobre" class="products">
+        <h2 class="section-title">Sobre nós</h2>
+        <p>A Lojinha do Gordo é um espaço especial, cheio de objetos variados que chamam a atenção logo de cara. Muitas dessas coisas cabem na palma da mão, mas têm o poder de transformar o dia a dia de quem as encontra. Quem entra na loja não busca apenas um produto, mas algo que traga conforto e bem-estar de um jeito simples e sincero.     
+        Ali, cada item parece ter sua própria história, esperando para ser descoberto por alguém que realmente vai valorizar o que ele oferece. Não é raro que as pessoas saiam dali com um sorriso no rosto, porque encontraram algo inesperado, que faz sentido para elas naquele momento.           
+        O clima acolhedor da loja faz com que os clientes se sintam em casa, como se estivessem visitando um amigo que entende suas pequenas necessidades. A Lojinha do Gordo é mais do que uma loja de variedades.
+        é um lugar onde o cuidado com o detalhe e o carinho nas escolhas fazem toda a diferença.            
+        No fim, o que fica não é só o objeto comprado, mas a sensação de ter recebido algo que contribui para o bem-estar, mesmo que seja algo simples que caiba na palma da mão.</p>
+    </section>
+ 
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; LojinhadoGordo. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+<script src="js/scripts.js"></script> 
+
+</body>
+</html>
