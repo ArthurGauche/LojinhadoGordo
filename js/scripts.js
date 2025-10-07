@@ -10,7 +10,7 @@ const products = [
     {
         id: 2,
         name: "Caneca Personalizada",
-        price: 29.90,
+        price: 59.90,
         image: "image/Caneca Personalizada.avif"
     },
     {
@@ -28,7 +28,7 @@ const products = [
     {
         id: 5,
         name: "Pista de Hot Wheels",
-        price: 45.99,
+        price: 345.99,
         image: "image/Pista de Hot Wheels.avif"
     },
     {
