@@ -374,14 +374,21 @@ footer {
 
 form {
     flex-direction: column;
-    width: 300px;
-    margin: 20px auto; /* Centraliza horizontalmente */
-    gap: 15px; /* Espaço entre os elementos */
+    margin: 20px auto; 
+    gap: 15px; 
     background-color: #ffffff;
     border: 2px solid #000000;
-    width: 40%;
-    padding: 20px;
+    width: 60%;
+    padding: 25px;
     border-radius: 8px;
+}
+
+form h3{
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+
+
 }
 
 p {
